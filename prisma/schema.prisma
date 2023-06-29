@@ -15,7 +15,7 @@ datasource db {
 model Location {
   id        Int      @id @default(autoincrement())
   name      String
-  coordinates Json
+  coordinate Json
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
 }
